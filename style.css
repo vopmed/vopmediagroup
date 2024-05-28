@@ -1,0 +1,384 @@
+/* Reset some default styles */
+html{
+  scroll-behavior: smooth;
+}
+  h3, h4, h5, h6, ul, li {
+    margin: 0;
+    padding: 0;
+    color: green;
+  }
+  p{
+    color: black;
+    font-size: 18px;
+    text-align: justify;
+}
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f7f7f7;
+    color:green;
+  }
+  
+  header {
+    position: fixed;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    padding: 0;
+    color: red;
+  }
+  #red{
+    color: whitesmoke;
+  }
+  header img{
+    width: 30px;
+    height: 30px;
+    float: left;
+  }
+  
+  main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+  }
+  
+  article {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+  
+  article:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+  }
+  
+  article h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  article p {
+    font-size: 16px;
+  }
+  /* Add additional styles as needed */
+  body{
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  }
+  header{	
+    background-color: black;
+    color: white;
+    width: 100%;
+  }
+  .website-header{
+    padding: 20px;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .website-header img{
+    float: left;
+    width: 50px;
+    height: 50px;	
+    margin: 0 30px;
+  }
+  .website-header h1{
+    margin: auto 0;
+  }
+  .social-icons{
+    text-align: right;
+    flex-grow: 1;
+    color: aqua;
+    height: 5%;
+    margin-bottom: 3%;
+  }
+  .social-icons i{
+    margin: 0 7px;
+    cursor: pointer;
+  }
+  #datetime{
+    color:#b2175b;
+    text-align:left;
+    display: inline-block;
+    margin-right: 70%;
+  }
+  .top-search{
+    text-align: center;
+    margin-left: 10%;
+  }
+    
+  nav{
+    background-color:black;
+    height: 50px;
+    margin-bottom: 30px;
+  }
+  nav ul{
+    margin: 20px 0 0 0;
+  }
+  .navbar li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+    justify-content: space-between;
+    
+  }
+  .navbar li a{
+    color:aqua;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 800;
+  }
+  .navbar li a:hover{
+    color:#e08b6c;
+  }
+  .breaking-news-section{
+    padding: 0 30px 0 60px;
+    display: flex;
+  }
+  #btext{
+    width: 200px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color:#e08b6c;
+    font-weight: 600;
+    margin: auto 0;
+    text-align: left;
+  }
+  .breaking-news{
+    padding: 30px;
+    color: red;
+    text-decoration: none;	
+    font-weight: 800;
+  }
+  .breaking-news:hover,.social-icons i:hover{
+    color:#e06c6c;
+    cursor: pointer;
+  }
+  .bntime{
+    display: inline-block;
+    color: rgba(255,255,255,0.5);
+    padding: 0 10px;
+    font-size: 12px;
+  }
+  .content{
+    display: inline-block;
+    background-color:#45b8ac;
+    margin:0;
+    padding:5px;
+    width: 100%;
+    height: auto;
+  }
+  #text{
+    text-align: center;
+    color: red;
+  }
+  .home{
+    text-align: justify;
+    color: #b2175b;
+    font-size: 20px;
+    width: 100%;
+    height:auto;
+    margin:0;
+    padding: 5px;
+  }
+  #center{
+    text-align: center;
+    color: #b2175b;
+    font-size: 28px;
+  }
+  @media only screen and (max-width: 600px) {
+    .breaking-news-section{	
+      padding: 10px;
+      flex-wrap: wrap;
+    }
+    .website-header h1{
+      font-size: 15px;
+    }
+    .social-icons{
+      flex-basis: 100%;
+    }
+    .navbar-collapse{
+      background-color: black;
+      z-index: 16;
+    }
+    .navbar-toggler-icon{
+      background-image: url(images/menu.jpg);
+      z-index: 16;
+    }
+  }
+    
+/* contact section styling */
+.contact .title::after{
+  content: "";
+}
+.contact{
+  background-color:wheat;
+}
+.head{
+  text-align: left;
+  font-size: 22px;
+  color: red;
+  margin-left: 0;
+  padding: auto;
+}
+.title{
+  color: #b2175b;
+  font-size: 25px;
+}
+.sub-title{
+  text-align: left;
+  font-size: 18px;
+}
+.contact .contact-content .column{
+  width: calc(50% - 30px);
+}
+.contact .contact-content .text{
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.contact .contact-content .left p{
+  text-align:left;
+}
+.contact .contact-content .left .icons{
+  margin: 10px 0;
+}
+.contact .contact-content .row{
+  display: flex;
+  height: 65px;
+  align-items:center;
+}
+.contact .contact-content .row .info{
+  margin-left: 30px;
+}
+.contact .contact-content .row i{
+  font-size: 25px;
+  color: crimson;
+}
+.contact .contact-content .info .head{
+  font-weight: 500;
+}
+.contact .contact-content .info .sub-title{
+  color: #333;
+}
+.contact{
+  display:flex;
+  text-align:left;
+  width: 100%;
+  height:auto;
+  margin: 0px;
+}
+.form{
+  display: flex;
+  width: 100%;
+  height:100%;
+  padding: 0;
+  text-align: right;
+  margin-left: 80%;
+}
+.contact .right form .fields{
+  display: flex;
+}
+.contact .right form .field,
+.contact .right form .fields .field{
+  height: 45px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.contact .right form .textarea{
+  height: 80px;
+  width: 100%;
+}
+.contact .right form .name{
+  margin-right: 10px;
+}
+.contact .right form .field input,
+.contact .right form .textarea textarea{
+  height: 100%;
+  width: 100%;
+  border: 2px solid aqua;
+  border-radius: 6px;
+  outline: none;
+  padding: 0 15px;
+  font-size: 17px;
+  font-family: 'Poppins', sans-serif;
+  transition: all 0.3s ease;
+}
+.contact .right form .field input:focus,
+.contact .right form .textarea textarea:focus{
+  border-color: #b3b3b3;
+}
+.contact .right form .textarea textarea{
+padding-top: 10px;
+resize: none;
+}
+.contact .right form .button-area{
+display: flex;
+align-items: center;
+}
+.right form .button-area button{
+color: black;
+display: block;
+width: 160px!important;
+height: 45px;
+outline: none;
+font-size: 18px;
+font-weight: 500;
+border-radius: 6px;
+cursor: pointer;
+flex-wrap: nowrap;
+background: aqua;
+border: 2px solid crimson;
+transition: all 0.3s ease;
+}
+.right form .button-area button:hover{
+color: crimson;
+background: none;
+}
+.text{
+  text-align:left;
+  color:black;
+}
+/*Privacy section start from here*/
+html
+  h1{
+    color:#b2175b;
+    font-size: 22px;
+  }
+  h2{
+    color:blue;
+    font-size: 25px;
+  }
+  /* for videos section*/
+  #other-link{
+    text-align: center;
+  }
+  #link{
+    text-align:center;
+    font-size: 25px;
+    color: #b2175b;
+  }
+/*footer section start from here*/
+footer{
+  background: #111;
+  padding: 15px 23px;
+  color: red;
+  text-align: center;
+}
+footer span a{
+  color: crimson;
+  text-decoration: none;
+}
+footer span a:hover{
+  text-decoration: underline;
+}
+/*Footer section end here*/
